@@ -38,20 +38,13 @@ section.contact {
             }
             &.social-google-plus {
                 a {
-                    background-color: #fe4164;
+                    background-color: $brand-google-plus;
                     &:hover {
-                        background-color: darken(#fe4164, 5%);
+                        background-color: darken($brand-google-plus, 5%);
                     }
                 }
             }
-            &.social-instagram { 
-                a {
-                    background-color: #fe4164;
-                    &:hover {
-                        background-color: darken(#fe4164, 5%);
-                    }
-                }
-            }
+            
             
         }
     }
