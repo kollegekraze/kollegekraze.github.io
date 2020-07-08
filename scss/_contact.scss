@@ -44,6 +44,14 @@ section.contact {
                     }
                 }
             }
+            &.social-instagram { 
+                a {
+                    background-color: #fe4164;
+                    &:hover {
+                        background-color: darken(#fe4164, 5%);
+                    }
+                }
+            }
             
         }
     }
