@@ -38,9 +38,9 @@ section.contact {
             }
             &.social-google-plus {
                 a {
-                    background-color: $brand-google-plus;
+                    background-color: #fe4164;
                     &:hover {
-                        background-color: darken($brand-google-plus, 5%);
+                        background-color: darken(#fe4164, 5%);
                     }
                 }
             }
